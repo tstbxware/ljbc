@@ -15,7 +15,7 @@ jobs:
           21,    # Current Java LTS
         ]
 
-    runs-on: latest-ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
