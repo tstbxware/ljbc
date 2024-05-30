@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "ljbc",
+	"version": "${version}",
+	"name": "Little John's Build N' Craft",
+	"description": "Made With Love!",
+	"authors": [
+		"ArcticAquila"
+	],
+	"contact": {
+		"homepage": "https://github.com/ArcticAquila/ljbc",
+		"sources": "https://github.com/ArcticAquila/ljbc"
+	},
+	"license": "MIT",
+	"icon": "assets/ljbc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.github.arcticaquila.ljbc.ljbc",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"ljbc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0"
+	}
+}
